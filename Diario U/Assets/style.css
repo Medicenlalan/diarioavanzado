@@ -1,0 +1,54 @@
+
+/* Estilos básicos */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #291313;
+}
+
+header {
+  background-color: #000000;
+  color: rgb(32, 66, 255);
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: #444;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.article {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+  width: calc(33% - 40px);
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+image{
+    max-height: "360p";
+
+}
+
